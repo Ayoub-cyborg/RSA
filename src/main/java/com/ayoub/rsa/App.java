@@ -56,8 +56,8 @@ public class App {
 		JButton Encryption = new JButton("Encryption");
 		Encryption.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				
-			}
+                
+            }
 		});
 		Encryption.setBackground(new Color(220, 220, 220));
 		Encryption.setForeground(new Color(0, 0, 0));
