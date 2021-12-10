@@ -1,3 +1,4 @@
+package com.ayoub.rsa;
 
 import java.security.InvalidKeyException;
 import java.security.KeyPair;
@@ -5,16 +6,14 @@ import java.security.KeyPairGenerator;
 import java.security.NoSuchAlgorithmException;
 import java.security.PrivateKey;
 import java.security.PublicKey;
-import java.util.Scanner;
 
 import javax.crypto.BadPaddingException;
 import javax.crypto.Cipher;
 import javax.crypto.IllegalBlockSizeException;
 import javax.crypto.NoSuchPaddingException;
-import javax.crypto.SecretKey;
 
 
-public class Main {
+public class Rsa {
 	private static KeyPair key=null;
 
 	public static void main(String[] args) {
